@@ -1,7 +1,7 @@
 # login-and-regiter-page-with-crud-operations
 1. I used mongob atlas as database.
 2. I used Node.js for the backend.
-3. If you wanat to run this project so complete the below task
+3. If you want to run this project so complete the below task
 (a) install node.js
 (b) Install express(npm install express)
 (c) install cors, node modules and mongodb (npm install -g node-modules mongodb cors)
