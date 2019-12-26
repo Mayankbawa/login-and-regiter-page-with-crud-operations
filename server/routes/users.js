@@ -17,14 +17,14 @@ router.post('/login',function(req,res){
     }
 
     var mongoClient = mongo.MongoClient;
-    var url = "mongodb+srv://manku:manku@cluster0-u9dbl.mongodb.net/test?retryWrites=true&w=majority"
+    var url = "use your mongodb collection url"
     mongoClient.connect(url,{ useNewUrlParser: true },function(err,project){
          if(err){
              res.send('db connection err');
          }
 
-         var db=project.db('bank');
-         var collection=db.collection('users');
+         var db=project.db('database name here');
+         var collection=db.collection('Name of collection');
          collection.findOne(queryObj,function(e,s){
               if(e){
                   res.send(e);
@@ -56,14 +56,14 @@ router.post('/register',function(req,res){
     }
 
     var mongoClient = mongo.MongoClient;
-    var url = "mongodb+srv://manku:manku@cluster0-u9dbl.mongodb.net/test?retryWrites=true&w=majority"
+    var url = "Use your mongodb atlas collection url "
     mongoClient.connect(url,{ useNewUrlParser: true },function(err,project){
          if(err){
              res.send('db connection err');
          }
 
-         var db=project.db('bank');
-         var collection=db.collection('users');
+         var db=project.db('mongodb databae name here');
+         var collection=db.collection('name of collection');
          collection.insertOne(queryObj,function(e,s){
               if(e){
                   res.send(e);
