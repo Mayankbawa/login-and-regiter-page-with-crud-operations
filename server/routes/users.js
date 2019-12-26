@@ -17,7 +17,7 @@ router.post('/login',function(req,res){
     }
 
     var mongoClient = mongo.MongoClient;
-    var url = "use your mongodb collection url"
+    var url = "use your mongodb collection url with username and password"
     mongoClient.connect(url,{ useNewUrlParser: true },function(err,project){
          if(err){
              res.send('db connection err');
@@ -56,7 +56,7 @@ router.post('/register',function(req,res){
     }
 
     var mongoClient = mongo.MongoClient;
-    var url = "Use your mongodb atlas collection url "
+    var url = "use your mongodb collection url with username and password "
     mongoClient.connect(url,{ useNewUrlParser: true },function(err,project){
          if(err){
              res.send('db connection err');
