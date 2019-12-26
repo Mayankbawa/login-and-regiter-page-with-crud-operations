@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CRUD Operations</title>
+	<link rel="stylesheet" type="text/css" href="css/crud.css">
+	<script type="text/javascript" src="js/crud.js"></script>
+</head>
+<body>
+	<h1>CRUD Operations</h1>
+	<table>
+		<tr>
+			<td>
+				<form onsubmit="event.preventDefault();onformSubmit();" autocomplete="off">
+					<div>
+						<label>Student ID</label>
+						<input type="text" name="studentid" id="studentid">
+					</div>
+					<div>
+						<label>Student Name</label>
+						<input type="text" name="studentname" id="studentname">
+					</div>
+					<div>
+						<label>Email</label>
+						<input type="text" name="email" id="email"> 
+					</div>
+					<div>
+						<label>Class</label>
+						<input type="text" name="class" id="class">
+					</div>
+					<div>
+						<label>Enrollment Year</label>
+						<input type="text" name="year" id="year">
+					</div>
+					<div>
+						<label>City</label>
+						<input type="text" name="city" id="city">
+					</div>
+					<div>
+						<label>Country</label>
+						<input type="text" name="country" id="country">
+					</div>
+					<div class="form-action-buttons">
+						<input type="submit" value="submit">
+					</div>   
+				</form>
+				
+			</td>
+			<td>
+				<table class="list" id="studentlist">
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Name</th>
+							<th>Email</th>
+							<th>Class</th>
+							<th>Year</th>
+							<th>City</th>
+							<th>Country</th>
+							<th></th>
+
+						</tr>
+					</thead>
+					<tbody id="tablebody">
+						
+
+					</tbody>
+					
+				</table>
+				
+			</td>
+		</tr>
+	</table>
+
+
+
+</body>
+</html>

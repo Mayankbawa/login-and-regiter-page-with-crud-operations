@@ -1,0 +1,91 @@
+header{
+	background: #f56636;
+	height: 70px;
+	color:  white;
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Hepta Slab', serif;
+	letter-spacing: 10px;
+	padding-top: 5px;	
+}
+
+body{
+	margin: 0;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url('Rajah-Solid-Color-Background-Wallpaper-5120x2880.png');
+	background-repeat: no-repeat;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	background: #f56636;
+	height: 50px;
+	width: 100%;
+	color:  white;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Hepta Slab', serif;
+	letter-spacing: 10px;
+
+}
+
+.login{
+	position: relative;
+	border: solid;
+	display: inline-block;
+	height: 200px;
+	width: 320px;
+	background: #f56636;
+	left: 615px;
+    top: 219px;
+}
+
+#loader{
+    position: relative;
+    width: 35px;
+    top: 200px;
+}
+
+.disp-none{
+    display: none;
+}
+
+.mask{
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.mask > img{
+    position: fixed;
+    left: 40%;
+    top: 25%;
+}
+
+table{
+	margin-top: 15px;
+}
+
+#msg{
+	color: white;
+
+}
+
+
+.Registration{
+  position: relative;
+  border: solid;
+  display: inline-block;
+  height: 350px;
+  width: 330px;
+  background: #f56636;
+  left: 615px;
+  top: 159px;
+
+}

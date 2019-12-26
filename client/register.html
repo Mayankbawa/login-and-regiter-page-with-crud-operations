@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User login and Register</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/register.js"></script>
+	<script type="text/javascript" src="js/servercall.js"></script>
+</head>
+<body>
+	<div class="mask disp-none">
+        <img src="images/loader.gif" />
+     </div>
+	<header>User Registration</header>
+	<div class='Registration'>
+	<table cellspacing="10">
+		<tr> <td>First Name*</td><td><input id ="fname" type="" name=""/></td></tr>
+		<tr> <td>Middle Name</td><td><input id="mname" type="text" name="" /></td></tr>
+		<tr> <td>Last Name*</td><td><input id ="lname" type="" name="" required/></td></tr>
+		<tr> <td>Mobile Number*</td><td><input id ="mobileno" type="Number" name="" required/></td></tr>
+		<tr> <td>Email*</td><td><input id ="email" type="Email" name="email" required/></td></tr>
+		<tr> <td>Password*</td><td><input id ="password" type="Password" name="" required/></td></tr>
+		<tr> <td>Confirm Password*</td><td><input id ="conf_password" type="Password" name="" required/></td></tr>
+		<tr><td></td><td><input type="Button" name="" value="Register" onclick="fnregister()" /></td></tr>
+
+	</table>
+	<p style="text-align: center;\">Already Registered?<button><a href="index.html" style="text-decoration: none;">Login</a></button></p>
+	<span id='msg'></span>
+	</div>
+
+	<footer>&copy; Belongs to manku bawa!</footer>
+</body>
+</html>

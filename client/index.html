@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User login and Register</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/login.js"></script>
+	<script type="text/javascript" src="js/servercall.js"></script>
+</head>
+<body>
+	<div class="mask disp-none">
+        <img src="images/loader.gif" />
+     </div>
+	<header>User Login</header>
+	<div class='login'>
+	<table cellspacing="10">
+		<tr> <td>Email-ID</td><td><input id ="email" type="Email" name=""/></td></tr>
+		<tr> <td>Password</td><td><input id="password" type="Password" name=""/></td></tr>
+		<tr><td></td><td><input type="Button" name="" value="Login" onclick="fnlogin()" /></td></tr>
+
+	</table>
+	<p style="text-align: center;\">Not Registered?<button><a href="register.html" style="text-decoration: none;">Register</a></button></p>
+	<span id='msg'></span>
+	</div>
+
+	<footer>&copy; Belongs to manku bawa!</footer>
+</body>
+</html>
